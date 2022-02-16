@@ -1,10 +1,8 @@
 name: Builb Test and push
 on: [push]
 env:
-  IMAGE_NAME: service
-  REPO_NAME: <REPO_NAME>
-  
-
+  IMAGE_NAME: dockerhub
+  REPO_NAME: alhasha
 
 jobs:
   build:
